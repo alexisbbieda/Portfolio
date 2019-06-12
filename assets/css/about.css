@@ -1,0 +1,152 @@
+.link {
+    margin-top: 30px;
+}
+
+h3 {
+    position: absolute;
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin-left: 30px;
+}
+
+h2 {
+    position: relative;
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 36px;
+    color: #545353;
+}
+
+#classHead {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.final {
+    margin-bottom: 80px;
+}
+
+.link {
+    margin-top: 10px;
+}
+
+.contactInfo {
+    margin-top: 45px;
+}
+
+.social {
+    margin-top: 25px;
+    margin-left: -20px;
+}
+
+/* Social media icons */
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+/*.icon-btn*/
+[class^="icon-btn"] {
+	height: 40px;
+	width: 40px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 30px;
+	transition: ease-in-out .3s;
+	border-radius: 50px;
+	margin-left: 20px;
+  background-color: #EEEEEE;
+  border-style: none;
+}
+
+a, a:visited {
+    color: #545353;
+}
+
+.icon-btn:hover {
+    transform: scale(1.10);	
+    color: #EEEEEE;
+    border-style: none;
+}
+
+.email {
+  color: #ffffff;
+}
+
+.email:hover {
+    background-color: #EEEEEE	
+}
+
+.linkedin {
+    color: #ffffff;
+}
+  
+.linkedin:hover {
+    background-color: #EEEEEE;	
+}
+
+.github {
+    color: #ffffff;
+}
+  
+.github:hover {
+    background-color: #EEEEEE;	
+}
+
+a.left {
+    font-family: stolzl, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 36px;
+    color: #545353; 
+    margin: 0;
+	text-decoration: none;
+	background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+	transition: 0.2s;
+}
+
+a.left:hover {
+    background-size: 100% .1em;
+    color: #C4C4C4;
+}
+
+/* Variations */
+a.left {
+	background-position: left bottom;
+}
+
+
+@media only screen and (max-width: 1024px){
+    [class^="icon-btn"] {
+        margin-left: 10px;
+    }
+
+    .social {
+        margin-top: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    a.left {
+        font-weight: 500;
+    }
+
+    .contactInfo {
+        margin-top: 0px;
+    }
+}
+
+
+@media only screen and (max-width: 414px){
+    .contactInfo {
+        margin-top: 30px;
+    }
+}
+

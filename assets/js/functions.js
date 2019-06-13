@@ -228,19 +228,7 @@ $(function() {
       navbarFixed.removeClass("navbar-shrink");
     }
   });
-
-
-  /*===============================================
-    Smooth Scrollin on links
-  ===============================================*/
-  // var htmlBody = $("html,body");
-  // var ssBtn = $(".scrolldown-btn, .scrolldown, .navbar a");
-
-  // ssBtn.on("click", function(e) {
-  //   htmlBody.animate({scrollTop: $(this.hash).offset().top}, 700, "easeInOutQuart");
-  //   e.preventDefault();
-  // });
-
+  
 
   /*===============================================
     Scroll to top button
@@ -261,27 +249,5 @@ $(function() {
     $('html, body').animate({scrollTop:0}, '300');
   });
   
-  
-  
-
-  /*===============================================
-    Portfolio
-  ===============================================*/
-  // $(".portfolio-wrapper").imagesLoaded(function() {
-  //   var $portfolioWrapper = $(".portfolio-wrapper").isotope({
-  //     itemSelector: ".portfolio-item",
-  //     transitionDuration: 300 // 0.3 second
-  //   });
-  //   var filter = $(".filter ul li");
-
-  //   // Portfolio Filter //
-  //   filter.on("click", function() {
-  //     var filterValue = $(this).attr("data-filter");
-  //     $portfolioWrapper.isotope({ filter: filterValue });
-
-  //     filter.removeClass("active");
-  //     $(this).addClass("active");
-  //   });
-  // });
 
 });
